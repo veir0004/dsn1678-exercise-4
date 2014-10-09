@@ -51,6 +51,16 @@ Tells the animation to stay at its last keyframe and not reset*/
 	-webkit-animation: shuttle-fade 1s linear forwards;
 }
 
+.ship{
+	width: 200px;
+	display:inline-block;
+}
+
+.ship-section {
+	background: transparent url("../img/kasei-valles-canyons.jpg") no-repeat center;
+	background-size: cover;
+}
+
 @-webkit-keyframes dipper-fade {
 	0% {
 		opacity: 0;
@@ -62,6 +72,16 @@ Tells the animation to stay at its last keyframe and not reset*/
 }
 
 @-webkit-keyframes shuttle-fade {
+	0% {
+		opacity: 0;
+	}
+	100% {
+		opacity: 1;
+	}
+
+}
+
+@-webkit-keyframes ship-fade {
 	0% {
 		opacity: 0;
 	}
